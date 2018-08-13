@@ -11,9 +11,8 @@
 
 ![2048的logo](pic/2048.jpg)
 
-### [Windows](https://github.com/MarioDane/2048c/raw/master/Debug/Cpp1.exe)
+### [Windows程序下载](https://github.com/MarioDane/2048c/raw/master/Debug/Cpp1.exe)
 
-> 请保留此份本**Demo**的欢迎稿兼使用说明，如需提交Bug或相关建议，点击上方工具栏左边侧的**Issues**进行提交
 
 ------
 
@@ -37,7 +36,7 @@
 那么我们再来看看如果是自己肆意排列会产生什么样的效果（如下图），在自己随意移动，排列无序的情况下，很容易出现最大数格子位置不稳定，而周围同样的格子也很分散，难以使用，成为白白占用空间而无作用的格子。入下图中显示，这样移动一下宋在中间，一下在左下角，周围的要合并的汉，秦也难以凑到一起。于是就要另外再合过秦，汉来合并，这样又造成不必要的浪费。
 ![sample](https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/d8f9d72a6059252d6f58a3fe3f9b033b5ab5b9f9.jpg)
 
-### 4. 这是控制部分的代码
+### 4. 本Demo操作方式
 
 ```c++
 void interact()
@@ -56,6 +55,8 @@ void interact()
 	}
 }
 ```
+> \*请保留此份本**Demo**的欢迎稿兼使用说明，如需提交Bug或相关建议，点击上方工具栏左边侧的**Issues**进行提交
+
 ---
 玩的开心：）
 ---
